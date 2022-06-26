@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="img/icon/icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Best - Bakery</title>
+
+        <!-- Icon css link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendors/linearicons/style.css" rel="stylesheet">
+        <link href="vendors/flat-icon/flaticon.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Google font -->
+	<link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Leckerli+One&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Stalemate&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+        <!-- Rev slider css -->
+        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.css" rel="stylesheet">
+        
+        <!-- Extra plugin css -->
+        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendors/magnifc-popup/magnific-popup.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        	<div class="preloading">
+		<img src="img/gifloader/loader.gif" alt="" style="width: 150px;height: auto;">
+	</div>
+        <!--================Main Header Area =================-->
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(255, 255, 255, 0.764);">
+			<a class="navbar-brand" href="#index.html"><span
+					style="font-family: 'Leckerli One', cursive; font-size: 35px; font-weight: normal;">BEST
+					BAKERY</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+				aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarColor03">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cake.html">Cake</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="menu.html">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html">Buy now</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="signup.html">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="checkout.html">Check out</a>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<a class="nav-link" onclick="showCart()" style="cursor: pointer;"><i
+							class="fa-solid fa-cart-shopping"></i></a>
+					<div class="showCart" id="showCart">
+						<table border="1px">
+							<thead>
+								<tr>
+									<th>Number</th>
+									<th>Name</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody id="mycard">
+	
+							</tbody>
+	
+							<tfoot>
+								<tr>
+									<td colspan="5"><a href="checkout.html">Thanh toán ngay >></a></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</form>
+			</div>
+		</nav>
+        <!--================End Main Header Area =================-->
+        
+        <!--================End Main Header Area =================-->
+        <section class="banner_area">
+        	<div class="container">
+        		<div class="banner_text">
+        			<h3>About Us</h3>
+        			<ul>
+        				<li><a href="#">Home</a></li>
+        				<li><a href="#">About Us</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Main Header Area =================-->
+        
+        <!--================Our Bakery Area =================-->
+        <section class="our_bakery_area p_100">
+        	<div class="container">
+        		<div class="our_bakery_text">
+        			<h2>Our Bakery</h2>
+        			<h6>Welcome to our sweet world. Where you can enjoy the sweetness and cuteness of colorful marcarons, or authentic French sandwiches. All the products we will help you feel comfortable and enjoy.</h6>
+        			<p>With years of research and experience. Our top chefs have created timeless recipes. Also from simple ingredients such as flour, sugar, milk and other ingredients. We have created cakes with wonderful flavors and eye-catching colors that make many people fall in love. When you hold the macaron in your hand, you will see the cute colors, when you taste it, you will have a feeling of harmony and harmony. With the above, you should definitely give it a try to enter our wonderful world of pastries</p>
+        		</div>
+        		<div class="row our_bakery_image">
+        			<div class="col-md-4 col-6">
+        				<img class="img-fluid" src="img/about-us/a1.jpg" alt="">
+        			</div>
+        			<div class="col-md-4 col-6">
+        				<img class="img-fluid" src="img/about-us/a2.jpg" alt="">
+        			</div>
+        			<div class="col-md-4 col-6">
+        				<img class="img-fluid" src="img/about-us/a3.jpg" alt="">
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Our Bakery Area =================-->
+        <!--================Our Mission Area =================-->
+        <section class="our_mission_area p_100">
+        	<div class="container">
+        		<div class="row our_mission_inner">
+        			<div class="col-lg-3">
+        				<div class="single_m_title">
+        					<h2>Our Mission</h2>
+        				</div>
+        			</div>
+        			<div class="col-lg-9">
+        				<div class="mission_inner_text">
+        					<h6>As the creators of cakes to bring great enjoyment to our customers, we feel that our mission is extremely important. Accompanying that is the enthusiasm in the baking profession of the bakers of our team. We always have the initiative to create new dishes and make adjustments in the way of making so that our customers have a wonderful experience when enjoying our cakes. In addition, we focus on food safety inspection. This is one of the top criteria to evaluate a product. We guarantee with responsibility and as a baker, we always ensure food safety and hygiene in all processes and ingredients. With the noble mission above, we hope to bring great enjoyment to our customers. Hope you feel great trying our products. Thanks very much
+							</h6>        			
+        					<ul class="nav">
+        						<li><a href="#">Cake</a></li>
+        						<li><a href="#">Birthday cakes</a></li>
+        						<li><a href="#">Coffee</a></li>
+        						<li><a href="#">Soft drinks</a></li>
+        					</ul>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Our Mission Area =================-->
+    	
+		<section class="our_chef_area p_100">
+        	<div class="container">
+        		<div class="row our_chef_inner">
+        			<div class="col-lg-3">
+        				<div class="chef_text_item">
+        					<div class="main_title">
+								<h2>Our Chefs</h2>
+							</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-6">
+        				<div class="chef_item">
+        					<div class="chef_img">
+        						<img class="img-fluid" src="img/chef/chef-1.jpg" alt="">
+        					</div>
+        					<a href="#"><h4>Michale Joe</h4></a>
+        					<h5>Expert in Cake Making</h5>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-6">
+        				<div class="chef_item">
+        					<div class="chef_img">
+        						<img class="img-fluid" src="img/chef/chef-2.jpg" alt="">
+        					</div>
+        					<a href="#"><h4>Michale Joe</h4></a>
+        					<h5>Expert in Cake Making</h5>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-6">
+        				<div class="chef_item">
+        					<div class="chef_img">
+        						<img class="img-fluid" src="img/chef/chef-3.jpg" alt="">
+        					</div>
+        					<a href="#"><h4>Michale Joe</h4></a>
+        					<h5>Expert in Cake Making</h5>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+		<section class="map_area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7388104523366!2d108.25104871480656!3d15.9750105889392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1653672539353!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>    
+        <!--================End Client Says Area =================-->
+        <!--================Footer Area =================-->
+		<footer class="footer_area">
+			<div class="footer_widgets">
+				<div class="container">
+					<div class="row footer_wd_inner">
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_about_widget">
+								<h1 class="display-2"
+									style="font-family: 'Playfair Display', serif ; margin:-50px 0 0 0; font-size: 40px;">
+									BEST BAKERY</h1>
+								<p></p>
+								<ul class="nav">
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>More</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">About us</a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#">Contact</a></li>
+									<li><a href="#">Frequently asked questions</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>Branch</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">Hoa Hai, Ngu Hanh Son, Da Nang</a></li>
+									<li><a href="#">Hue city</a></li>
+									<li><a href="#">District 11, Ho Chi Minh City</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_contact_widget">
+								<div class="f_title">
+									<h3>Contact Info</h3>
+								</div>
+								<h4>+(84) 975734712</h4>
+								<p>Cake Shop <br>
+									470 Tran Dai Nghia, Ngu Hanh Son, Da Nang</p>
+								<h5>infor@cakeshop.com</h5>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+        <!--================End Footer Area =================-->        
+        <!-- -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/magnifc-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/datetime-picker/js/moment.min.js"></script>
+        <script src="vendors/datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        
+        <script src="js/theme.js"></script>
+		<script>
+			$(window).on("load", function () {
+				$(".preloading").fadeOut("slow");
+			});
+			var loader = document.getElementById("preloading");
+			window.addEventListener("load", function () {
+				loader.style.display = "none";
+			})
+		</script>
+    </body>
+
+</html>

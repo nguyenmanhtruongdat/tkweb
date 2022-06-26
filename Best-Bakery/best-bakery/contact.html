@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="img/icon/icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Best - Bakery</title>
+
+        <!-- Icon css link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendors/linearicons/style.css" rel="stylesheet">
+        <link href="vendors/flat-icon/flaticon.css" rel="stylesheet">
+        <link href="vendors/stroke-icon/style.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Rev slider css -->
+        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.css" rel="stylesheet">
+        <!-- Google font -->
+	<link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Leckerli+One&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Stalemate&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+        <!-- Extra plugin css -->
+        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendors/magnifc-popup/magnific-popup.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        	<div class="preloading">
+		<img src="img/gifloader/loader.gif" alt="" style="width: 150px;height: auto;">
+	</div>
+        <!--================Main Header Area =================-->
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(255, 255, 255, 0.764);">
+			<a class="navbar-brand" href="#index.html"><span
+					style="font-family: 'Leckerli One', cursive; font-size: 35px; font-weight: normal;">BEST
+					BAKERY</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+				aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarColor03">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cake.html">Cake</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="menu.html">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html">Buy now</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="signup.html">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="checkout.html">Check out</a>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<a class="nav-link" onclick="showCart()" style="cursor: pointer;"><i
+							class="fa-solid fa-cart-shopping"></i></a>
+					<div class="showCart" id="showCart">
+						<table border="1px">
+							<thead>
+								<tr>
+									<th>Number</th>
+									<th>Name</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody id="mycard">
+	
+							</tbody>
+	
+							<tfoot>
+								<tr>
+									<td colspan="5"><a href="checkout.html">Thanh toán ngay >></a></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</form>
+			</div>
+		</nav>
+        <!--================End Main Header Area =================-->
+        
+        <!--================End Main Header Area =================-->
+        <section class="banner_area">
+        	<div class="container">
+        		<div class="banner_text">
+        			<h3>Contact Us</h3>
+        			<ul>
+        				<li><a href="index.html">Home</a></li>
+        				<li><a href="single-blog.html">Contact Us</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Main Header Area =================-->
+        
+        <!--================Contact Form Area =================-->
+        <section class="contact_form_area p_100">
+        	<div class="container">
+        		<div class="main_title">
+					<h2>Get In Touch</h2>
+					<h5>Do you have anything in your mind to let us know?  Kindly don't delay to connect to us by means of our contact form.</h5>
+				</div>
+       			<div class="row">
+       				<div class="col-lg-7">
+       					<form class="row contact_us_form" id="contactForm" novalidate="novalidate">
+							<div class="form-group col-md-6">
+								<label class="name" for="email">Name</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="">
+							</div>
+							<div class="form-group col-md-6">
+								<label class="Email" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                                <span class="emailText"></span>
+							</div>
+							<div class="form-group col-md-12">
+								<label class="subject" for="email">Subject</label>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="">
+							</div>
+							<div class="form-group col-md-12">
+								<label class="Email" for="email">What do you want to say?</label>
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder=""></textarea>
+							</div>
+							<div class="form-group col-md-12">
+								<button class="btn order_s_btn form-control" onclick="checkOrder()">Send</button>
+							</div>
+						</form>
+       				</div>
+       				<div class="col-lg-4 offset-md-1">
+       					<div class="contact_details">
+       						<div class="contact_d_item">
+       							<h3>Address :</h3>
+       							<p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang</p>
+       						</div>
+       						<div class="contact_d_item">
+       							<h5>Phone : <a href="tel:0332919872">0332919872</a></h5>
+       							<h5>Email : <a href="mailto:infor@shopcake.com">infor@shopcake.com</a></h5>
+       						</div>
+       					</div>
+       				</div>
+       			</div>
+        	</div>
+        </section>
+        <!--================End Contact Form Area =================-->
+        
+        <!--================End Banner Area =================-->
+        <section class="map_area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7388104523366!2d108.25104871480656!3d15.9750105889392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1653672539353!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>        
+        <!--================Footer Area =================-->
+		<footer class="footer_area">
+			<div class="footer_widgets">
+				<div class="container">
+					<div class="row footer_wd_inner">
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_about_widget">
+								<h1 class="display-2"
+									style="font-family: 'Playfair Display', serif ; margin:-50px 0 0 0; font-size: 40px;">
+									BEST BAKERY</h1>
+								<p></p>
+								<ul class="nav">
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>More</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">About us</a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#">Contact</a></li>
+									<li><a href="#">Frequently asked questions</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>Branch</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">Hoa Hai, Ngu Hanh Son, Da Nang</a></li>
+									<li><a href="#">Hue city</a></li>
+									<li><a href="#">District 11, Ho Chi Minh City</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_contact_widget">
+								<div class="f_title">
+									<h3>Contact Info</h3>
+								</div>
+								<h4>+(84) 975734712</h4>
+								<p>Cake Shop <br>
+									470 Tran Dai Nghia, Ngu Hanh Son, Da Nang</p>
+								<h5>infor@cakeshop.com</h5>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+        <!--================End Footer Area =================-->
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/magnifc-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/datetime-picker/js/moment.min.js"></script>
+        <script src="vendors/datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="js/theme.js"></script>
+		<script src="js/Validate.js"></script>
+		<script>
+			$(window).on("load", function () {
+				$(".preloading").fadeOut("slow");
+			});
+			var loader = document.getElementById("preloading");
+			window.addEventListener("load", function () {
+				loader.style.display = "none";
+			})
+		</script>
+    </body>
+
+</html>

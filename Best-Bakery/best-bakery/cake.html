@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="img/icon/icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Best - Bakery</title>
+
+        <!-- Icon css link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendors/linearicons/style.css" rel="stylesheet">
+        <link href="vendors/flat-icon/flaticon.css" rel="stylesheet">
+        <link href="vendors/stroke-icon/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/aos.css"><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Google font -->
+	<link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Leckerli+One&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charmonman:wght@700&family=Dancing+Script:wght@500&family=Leckerli+One&family=Stalemate&family=Vollkorn:wght@500&display=swap"
+		rel="stylesheet">
+        <!-- Rev slider css -->
+        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.css" rel="stylesheet">
+        
+        <!-- Extra plugin css -->
+        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendors/magnifc-popup/magnific-popup.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        	<div class="preloading">
+		<img src="img/gifloader/loader.gif" alt="" style="width: 150px;height: auto;">
+	</div>
+        <!--================Main Header Area =================-->
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(255, 255, 255, 0.764);">
+			<a class="navbar-brand" href="#index.html"><span
+					style="font-family: 'Leckerli One', cursive; font-size: 35px; font-weight: normal;">BEST
+					BAKERY</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+				aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarColor03">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cake.html">Cake</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="menu.html">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html">Buy now</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="signup.html">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="checkout.html">Check out</a>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<a class="nav-link" onclick="showCart()" style="cursor: pointer;"><i
+							class="fa-solid fa-cart-shopping"></i></a>
+					<div class="showCart" id="showCart">
+						<table border="1px">
+							<thead>
+								<tr>
+									<th>Number</th>
+									<th>Name</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody id="mycard">
+	
+							</tbody>
+	
+							<tfoot>
+								<tr>
+									<td colspan="5"><a href="checkout.html">Thanh toán ngay >></a></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</form>
+			</div>
+		</nav>
+        <!--================End Main Header Area =================-->
+        
+        <!--================End Main Header Area =================-->
+        <section class="banner_area">
+        	<div class="container">
+        		<div class="banner_text">
+        			<h3>Our Cakes</h3>
+        			<ul>
+        				<li><a href="index.html">Home</a></li>
+        				<li><a href="cakes.html">Services</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Main Header Area =================-->
+        
+        <!--================Blog Main Area =================-->
+        <section class="our_cakes_area p_100">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2 data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1500"
+					>Our Cakes</h2>
+        			<h5>We strive to bring the sweetest things to our customers. The fact that customers have interesting and wonderful feelings when enjoying our products is a great happiness for our team.</h5>
+        		</div>
+        		<div class="cake_feature_row row">
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-right"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-1.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>39000</h4>
+								<h3>Strawberry Cupcakes</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-up-right"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-2.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>37000</h4>
+								<h3>Matcha Cupcakes</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-up-left" data-aos-duration="1500"a>
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-3.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>74000</h4>
+								<h3>Chocolate Cupcakes</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-left"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-9.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>49000</h4>
+								<h3>Ice cream Cupcakes</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-right"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-4.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>39000</h4>
+								<h3>Grapes cake</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-up-right"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-5.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>78000</h4>
+								<h3>Chocolate vani cake</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-up-left"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-6.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>219000</h4>
+								<h3>Birthday cake</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-left"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-7.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>45000</h4>
+								<h3>Cheesecake</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="cake_feature_item" data-aos="fade-up"
+						data-aos-duration="1500">
+							<div class="cake_img">
+								<img src="img/cake-feature/c-feature-8.jpg" alt="">
+							</div>
+							<div class="cake_text">
+								<h4>67000</h4>
+								<h3>Cupcake Coklat</h3>
+								<input type="number" name="" id="" min="1" style="width: 40px;">
+								<a class="pest_btn" onclick="themvaogiohang(this)">Add to cart</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+        	</div>
+        </section>
+        <!--================End Blog Main Area =================-->
+    
+        <!--================Footer Area =================-->
+		<footer class="footer_area">
+			<div class="footer_widgets">
+				<div class="container">
+					<div class="row footer_wd_inner">
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_about_widget">
+								<h1 class="display-2"
+									style="font-family: 'Playfair Display', serif ; margin:-50px 0 0 0; font-size: 40px;">
+									BEST BAKERY</h1>
+								<p></p>
+								<ul class="nav">
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>More</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">About us</a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#">Contact</a></li>
+									<li><a href="#">Frequently asked questions</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_link_widget">
+								<div class="f_title">
+									<h3>Branch</h3>
+								</div>
+								<ul class="list_style">
+									<li><a href="#">Hoa Hai, Ngu Hanh Son, Da Nang</a></li>
+									<li><a href="#">Hue city</a></li>
+									<li><a href="#">District 11, Ho Chi Minh City</a></li>
+								</ul>
+							</aside>
+						</div>
+						<div class="col-lg-3 col-6">
+							<aside class="f_widget f_contact_widget">
+								<div class="f_title">
+									<h3>Contact Info</h3>
+								</div>
+								<h4>+(84) 975734712</h4>
+								<p>Cake Shop <br>
+									470 Tran Dai Nghia, Ngu Hanh Son, Da Nang</p>
+								<h5>infor@cakeshop.com</h5>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+        <!--================End Footer Area =================-->
+        
+			<!--================Search Box Area =================-->
+			<div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
+				<div class="search_box_inner">
+					<h3>Search</h3>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search for...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--================End Search Box Area =================-->
+			
+			
+			
+        
+        <script src="js/aos.js"></script>
+        <script>
+			AOS.init();
+		</script>
+        <!-- jQuery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/magnifc-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/datetime-picker/js/moment.min.js"></script>
+        <script src="vendors/datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        
+        <script src="js/theme.js"></script>
+		<script>
+			$(window).on("load", function () {
+				$(".preloading").fadeOut("slow");
+			});
+			var loader = document.getElementById("preloading");
+			window.addEventListener("load", function () {
+				loader.style.display = "none";
+			})
+		</script>
+    </body>
+
+</html>
